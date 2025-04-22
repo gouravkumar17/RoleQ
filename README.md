@@ -1,6 +1,6 @@
-# 🧾 Job Application Tracker
+# 🧾 RoleQ
 
-A web-based Job Application Tracking System that helps users manage and organize job applications efficiently. Built with **React**, **Node.js**, **Express**, and **MongoDB**, it provides a clean and user-friendly interface for tracking application progress, managing user profiles, and storing job-related data securely.
+**RoleQ** is a web-based Job Role Management and Application Tracking System that helps users manage and organize job applications efficiently. Built with **React**, **Node.js**, **Express**, and **MongoDB**, it provides a clean and user-friendly interface for tracking application progress, managing user profiles, and storing job-related data securely.
 
 ## 🌟 Features
 
@@ -36,7 +36,6 @@ A web-based Job Application Tracking System that helps users manage and organize
 
 
 
-
 ## 🚀 Getting Started
 
 ### Prerequisites
@@ -50,9 +49,16 @@ A web-based Job Application Tracking System that helps users manage and organize
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourusername/job-application-tracker.git
-cd job-application-tracker
+git clone https://github.com/yourusername/roleq.git
+cd roleq
+
+
+cd server
+npm install
+
+cd ../client
+npm install
 
 
 
-
+npm start
